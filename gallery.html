@@ -82,10 +82,16 @@
             font-size: 1em;
         }
     }
+    @media (max-width: 1080px) {
+        .panels{
+            flex-direction: column;
+        }
+    }
+
     .takeMeBack {
         z-index: 99;
-        height: 40px;
-        width: 100px;
+        height: 50px;
+        width: 120px;
         position: absolute;
         background-color: rgba(0, 0, 0, 0.4);
         display: flex;
@@ -95,6 +101,7 @@
         margin-left: 50px;
         color: white;
         text-decoration: none;
+            font-size: 25px;
     }
     .takeMeBack:hover{
         background-color: rgba(0, 0, 0, 0.7);
